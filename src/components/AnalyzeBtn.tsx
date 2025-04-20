@@ -1,3 +1,3 @@
 export default function AnalyzeBtn() {
-  return <button>Analyze Text</button>;
+  return <button id="analyze-btn">Analyze Text</button>;
 }

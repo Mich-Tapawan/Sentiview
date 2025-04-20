@@ -4,4 +4,48 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  --primary: #77c8f5;
+  --secondary: #0bf4d4;
+  --dark: #454545;
+}
+
+section {
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.brand {
+  background-image: linear-gradient(
+    to right,
+    var(--primary) 0%,
+    var(--secondary) 90%
+  );
+
+  color: transparent;
+  background-clip: text;
+  display: inline-block;
+}
+
+.text-area-container {
+  position: relative;
+  height: 62vh;
+}
+
+#analyze-btn {
+  width: 9.5rem;
+  color: white;
+  padding-inline: 1rem;
+  padding-block: 0.7rem;
+  border-radius: 0.5rem;
+  font-size: medium;
+  position: absolute;
+  right: 3%;
+  bottom: 5%;
+  background: linear-gradient(
+    to right,
+    var(--primary) 0%,
+    var(--secondary) 90%
+  );
+  cursor: pointer;
 }
