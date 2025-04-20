@@ -49,3 +49,11 @@ section {
   );
   cursor: pointer;
 }
+
+.results-card {
+  background-image: linear-gradient(
+    to bottom,
+    var(--primary) 0%,
+    var(--secondary) 100%
+  );
+}

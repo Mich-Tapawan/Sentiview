@@ -17,7 +17,7 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="grid lg:grid-cols-5">
+      <div className="grid gap-5 lg:grid-cols-5 lg:gap-10">
         <div className="text-area-container lg:col-span-3">
           <textarea
             name="review-texts"
@@ -28,10 +28,10 @@ export default function Home() {
           <AnalyzeBtn />
         </div>
 
-        <div className="text-white">
-          <h2>OVERALL RATINGS</h2>
-          <div>
-            <h3>0.0</h3>
+        <div className="results-card text-white flex flex-col lg:py-10 lg:col-span-2">
+          <h2 className="text-lg font-bold text-center">OVERALL RATINGS</h2>
+          <div className="place-self-center mb-10">
+            <h3 className="text-7xl font-bold">0.0</h3>
             <img src="" alt="" />
           </div>
           <ReviewScores />

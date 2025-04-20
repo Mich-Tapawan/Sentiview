@@ -9,12 +9,12 @@ const reviews = [
 
 export default function ReviewScores() {
   return (
-    <div>
-      <ul>
+    <div className="flex flex-col gap-10">
+      <ul className="grid grid-cols-2 place-self-center gap-15">
         {reviews.map((review) => (
           <li>
-            <h4>{review[0]}</h4>
-            <h5>{review[1]}</h5>
+            <h4 className="text-center">{review[0]}</h4>
+            <h5 className="font-bold text-2xl text-center">{review[1]}</h5>
           </li>
         ))}
       </ul>
