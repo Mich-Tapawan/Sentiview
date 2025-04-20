@@ -1,7 +1,9 @@
+import Home from "./layouts/Home";
+
 function App() {
   return (
     <>
-      <div>Hewwo</div>
+      <Home />
     </>
   );
 }
