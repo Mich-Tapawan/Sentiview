@@ -28,7 +28,7 @@ export default function Home() {
           <AnalyzeBtn />
         </div>
 
-        <div className="results-card text-white flex flex-col lg:py-10 lg:col-span-2">
+        <div className="results-card py-5 text-white flex flex-col lg:py-10 lg:col-span-2">
           <h2 className="text-lg font-bold text-center">OVERALL RATINGS</h2>
           <div className="place-self-center mb-10">
             <h3 className="text-7xl font-bold">0.0</h3>
