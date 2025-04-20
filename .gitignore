@@ -22,3 +22,37 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+ENV/
+pip-selfcheck.json
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Pytest cache
+.pytest_cache/
+
+# VS Code config
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Python dependency resolver
+poetry.lock
+
+# Ignore .env file with secrets (if using dotenv)
+.env
